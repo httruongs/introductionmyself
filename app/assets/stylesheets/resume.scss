@@ -1,3 +1,114 @@
-// Place all the styles related to the resume controller here.
+// Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+	height: 200%;
+	width: 200%;
+	margin: 0px;
+	color: white;
+}
+
+body {
+	overflow-y: scroll; 
+	overflow-x: scroll; 
+	align-items: left;
+    background-color: #FFF;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	flex-direction: column;
+	justify-content: center;
+	overflow: auto;
+}
+
+div.resume {
+	
+	
+	align-items: left;
+	align-self: center;
+	background: url('70420664-land-wallpapers.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	#border-radius: 200%;
+	display: flex;
+	flex-direction: column;
+	min-height: 50px;
+	justify-content: center;
+	width: 1000px;
+	overflow: auto;
+	padding-top: 39em;
+	padding-bottom: 2em;
+}
+
+
+h1 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 1000;
+  line-height: 46px;
+  margin: 0 0 45px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+
+.blockContainer {
+	margin: 5px;
+}
+
+.blockHeader{
+	font-size: 18px;
+	text-align: left;
+	font-weight: 800;
+	font-family: Arial;
+	padding-left: 100px;
+}
+
+.blockText{
+	font-size: 14px;
+	margin-right: 40px;
+	padding-left: 105px;
+	padding-bottom: 0px;
+}
+
+
+.blockContainer1 {
+	margin: 5px;
+}
+
+.blockHeader1{
+	font-size: 18px;
+	text-align: left;
+	font-weight: 800;
+	font-family: Arial;
+	padding-left: 100px;
+}
+
+.blockText1{
+	font-size: 14px;
+	margin-right: 40px;
+	padding-left: 110px;
+	padding-bottom: 0px;
+}
+
+.blockText2{
+	font-size: 16px;
+	text-align: left;
+	margin-right: 40px;
+	padding-left: 335px;
+	padding-bottom: 0px;
+}
+
+.blockTitle{
+	padding-left: 250px;
+	
+}
+
+.blocklink{
+	padding-left: 450px;
+
+}
+

@@ -1,7 +1,6 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 html, body {
 	height: 100%;
 	width: 100%;
@@ -9,13 +8,15 @@ html, body {
 }
 
 body {
+	overflow-y: scroll; 
+	overflow-x: scroll; 
 	align-items: center;
   background-color: #FFF;
 	display: flex;
 	font-family: 'Raleway', sans-serif;
 	flex-direction: column;
 	justify-content: center;
-	overflow: hidden;
+	overflow: auto;
 }
 
 div.container {
@@ -61,4 +62,3 @@ a.btn:hover {
 	-webkit-transition: box-shadow 1s ease;
 	transition: box-shadow 1s ease;
 }
-
