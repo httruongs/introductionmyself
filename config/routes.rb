@@ -2,28 +2,29 @@ Rails.application.routes.draw do
   
   get 'welcome/index'
 
-  get 'welcome/index'
+  # get 'welcome/index'
 
-  get 'welcome/index'
+  # get 'welcome/index'
 
-  get 'welcome/index'
+  # get 'welcome/index'
 
-  get 'welcome/favor_activities'
+  # get 'welcome/favor_activities'
 
-    get 'welcome/resume'
+  get 'welcome/resume'
   
 
-    get 'welcome/index'
+  #   get 'welcome/index'
 
   
-    resources :welcome do
-      get 'index'
-      get 'welcome/index'
-      get 'welcome/welcome/index'
-      get 'resume'
-      get 'welcome/resume'
-      get 'welcome/welcome/resume'
-    end
+    # resources :welcome do
+    #   get 'index'
+    #   #get 'welcome/index'
+    #   #get 'welcome/welcome/index'
+    #   get 'resume'
+    #   #get 'welcome/resume'
+    #   #get 'welcome/welcome/resume'
+    #   #get 'welcome/welcome/favor_activities'
+    # end
  
   
   
